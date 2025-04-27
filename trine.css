@@ -1,0 +1,434 @@
+*{
+    opacity: 97%;
+}
+
+.pojemnik *:hover{
+    opacity: 100%;
+}
+
+body {
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    background-image: url(Obrazy/tlo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1000px 1860px;
+}
+
+h1{
+    background-color: #4c0076d0;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    border-radius: 6px;
+}
+
+p{
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+p.co-jeszcze{
+    line-height: 2.1;
+    color: wheat;
+    letter-spacing: 6px;
+}
+
+.pojemnik{
+    width: 980px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #603392;
+}
+
+.pojemnik > header > p{
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+div.jezyki{
+    background-color: #212121;
+    margin-bottom: 10px;    
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.jezyki > div{
+    flex-basis: 180px;
+    flex-grow: 1;
+}
+
+div.jezyki a{
+    color: #8a8679;
+    filter: brightness(60%);
+    transition: all 1s ease-out; 
+    padding: 15px;
+    border: 6px solid black;
+}
+
+div.jezyki a:hover{
+    color: #00ae29;
+    filter: brightness(150%);
+    box-shadow: 0 0 60px #43ef6d;
+    background-color: black;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+aside > h2{
+    color: #5d172e;
+    border: 3px solid black;
+    padding: 30px 0;
+    background-color: #175d2c;
+    text-transform: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-glowne a{
+    color: #797568;
+    display: block;
+    transition: all .3s ease-in;
+}
+
+aside  a{
+    color: skyblue;
+}
+
+.stopka a{
+    color: white;
+}
+
+.menu-glowne a:hover{
+    color: #10bf3a;
+}
+
+a.firma{
+    color: gold;
+}
+
+.menu-glowne{
+    font-size: 22px;
+}
+
+ol{
+    display: inline-block;
+}
+
+ol > li{
+    background-color: #101010;
+    float: left;
+    width: 191px;
+    min-height: 64px;
+    line-height: 2.4;
+    padding: 15px 0;
+    margin-right: 6px;
+    border-radius: 30px 30px 0 0;
+    font-weight: bold;
+    transition: all .3s ease-out;
+}
+
+ol > li:hover{
+    background-color: #000;
+}
+
+ol > li:last-child{
+    line-height: 1.2;    
+    margin-right: 0;
+}
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main{
+    background-color: #202020;
+    margin: 0;
+    padding: 30px 0;
+}
+
+aside{
+    background-color: #333;
+    padding-bottom: 30px;
+}
+
+.aktualnie{
+    background-color: #000;
+    color: #10bf3a;
+}
+
+main > div{
+    min-height: 800px;
+    color: indianred;
+}
+
+main > #index{
+    min-height: 1080px;
+}
+
+main > div > article > a > img{
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid orange;
+    border-radius: 70px; 
+    opacity: 80%;
+    filter: brightness(60%);
+    transition: all 2s ease-in-out;
+}
+
+main > div > article > a > img:hover{
+    opacity: 100%;
+    filter: brightness(100%);
+    transform: rotateY(-360deg);
+}
+
+main > div > article > section > p{
+    line-height: 1.6;    
+}
+
+main > div > article > header > p{
+    line-height: 2.3;
+    color: wheat;
+    letter-spacing: 6px;
+}
+
+.stopka {
+    background-color: #000;
+    border-radius: 0 0 30px 30px;
+    margin-top: 8px;
+    padding: 20px 0;
+}
+
+.stopka > b{
+    color: #c4ff6a;
+}
+
+.moje-media{
+    width: 900px;
+    padding: 20px;
+    border: 3px dashed #888;
+    border-radius: 12px;
+    margin: 30px auto;
+    display: flex;
+    gap: 12px;
+}
+
+.moje-media > div{
+    width: 200px;
+    height: 160px;
+    transition: all 1.2s ease-in-out;
+    line-height: 4.5;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.moje-media > div > a{
+    display: block;
+}
+
+.youtube:hover{
+    /* kolor youtube */
+    background-color: #f94348;
+}
+
+.facebook:hover{
+    /* kolor facebook */
+    background-color: #4668b3;
+}
+
+.gplus:hover{
+    /* kolor gplus */
+    background-color: #d95333;
+}
+
+.twitter:hover{
+    /* kolor twitter */
+    background-color: #3095d3;
+}
+
+address > a{
+    display: inline-block;
+    width: 420px;
+    background-color: #111;
+    margin: 0 15px;
+    padding: 16px 0;
+    border-radius: 12px;
+}
+
+address > a:hover{
+    transform: scale(1.14);
+}
+
+.semantyka{
+    font-size: 40px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+    padding: 50px;
+    margin: 10px 0 50px;
+    display: inline-block;
+    width: 800px;
+    text-shadow:
+    2px 2px 0 #1a509d,
+    -2px 2px 0 #1a509d,
+    -2px -2px 0 #1a509d,
+    2px -2px 0 #1a509d;
+    border-radius: 80px;
+    box-shadow: 10px -20px 24px #0f0f0f;
+}
+    
+
+.grafika > img{
+    width: 160px;
+}
+
+.opis{
+    width: 700px;
+}
+
+.opis.short{
+    width: 560px;
+}
+
+.grafika,
+.opis{
+    display: inline-block;
+}
+
+section#nie > .grafika,
+section#nie > .opis,
+.grafika > img{
+    display: block;
+}
+
+section#nie > .opis{
+    width: 940px;
+    margin-bottom: 180px;
+}
+
+.grafika.wielka > img{
+    width: 100%;
+}
+
+.opis > strong{
+    text-shadow:
+    3px 3px 0 black,
+    -3px 3px 0 black,
+    -3px -3px 0 black,
+    3px -3px 0 black;
+    letter-spacing: 5px;
+    color: green;
+}
+
+.grafika > .high{
+    height: 400px;
+    width: 300px;
+}
+
+.grafika > .middle{
+    height: 180px;
+}
+
+.grafika.padding{
+    padding-bottom: 150px;
+}
+
+.grafika.other-padding{
+    padding-bottom: 70px;
+}
+
+.grafika.small-padding{
+    padding-bottom: 40px;
+}
+
+#pajaki{
+    height: 300px;
+    width: 300px;
+}
+
+span{
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow:
+    1px 1px 0 green,
+    -1px 1px 0 green,
+    -1px -1px 0 green,
+    1px -1px 0 green;
+}
+
+span.medium{
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: gray;
+    display: inline-block;
+    width: 400px;
+}
+
+.wyjatek{
+    color: wheat;
+}
+
+strong > a{
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 8px;
+}
+
+strong#trine{
+    letter-spacing: 8px;
+}
+
+section#nie > .opis:last-child{
+    margin-bottom: 0;
+}
+
+div.inne-czesci > a{
+    display: inline-block;
+    padding: 18px;
+    border: 1.4px solid orange;
+    margin: 0 10px;
+}
+
+div.inne-czesci > a:hover{
+    background-color: orange;
+    color: white;
+}
+
+.inne-czesci{
+    margin: 30px 0;
+}
+
+.ogolne > b{
+    color: #5f708e;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+div.ogolne > div{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: orange;
+}
+
+p#designers{
+    color: #bfd5ff;
+    line-height: 1.4;
+}
