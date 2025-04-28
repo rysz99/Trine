@@ -10,7 +10,7 @@ body {
     text-align: center;
     font-size: 26px;
     margin: 0;
-    background-image: url(Obrazy/tlo.jpeg);
+    background-image: url(tlo.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1000px 1860px;
